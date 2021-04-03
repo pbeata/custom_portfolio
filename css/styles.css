@@ -1,0 +1,172 @@
+h1 {
+  /* font-family: Arial, Helvetica, sans-serif;
+  font-family: Verdana, sans-serif; */
+  /* font-family: serif; */
+  font-family: monospace;
+
+  /* color: white; */
+  /* color: black; */
+  color: #f8f1f1;
+
+  /* font-size: 60px; */
+  /* font-size: 450%; */
+
+  /*  16px = 100% = 1em (M) */
+  font-size: 6rem;
+  margin-bottom: 25px;
+}
+
+h2 {
+  font-family: monospace;
+  color: black;
+  font-size: 4rem;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+
+
+.center-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px;
+}
+
+.top-container {
+
+  /* this is just to test overlaying test on an image */
+  position: relative;
+  text-align: center;
+
+  /* color: white; */
+  color: #f8f1f1;
+
+  background-color: #f8f1f1;
+
+  /* padding-top: 200px; */
+  /* padding-bottom: 200px; */
+}
+
+.menu-bar {
+  /* background-color: white; */
+  background-color: #f8f1f1;
+  /* background-color: #a3d2ca; */
+  font-size: 1.2rem;
+
+  display: flex;
+  justify-content: space-between;
+
+  position: relative;
+  padding-top: 8px;
+  padding-bottom: 10px;
+
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.menu-item {
+  /* background-color: red; */
+  font-family: monospace;
+  font-size: 1.4rem;
+  padding: 5px;
+  color: black;
+}
+
+.menu-item:hover {
+  /* background-color: #E57B5E; */
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.about-me {
+  background-color: #a3d2ca;
+  /* background-color: #5eaaa8; */
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  /* padding: 20px 20px 20px 20px; */
+}
+
+.skills-title {
+  background-color: #5eaaa8;
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.my-skills {
+  background-color: #5eaaa8;
+  /* background-color: #E57B5E; */
+
+  display: flex;
+  justify-content: space-between;
+
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 50px;
+
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.skill-group {
+  font-size: 1.3rem;
+  font-weight: bold;
+
+  height: 250px;
+  width: 25%;
+
+  background-color: #f8f1f1;
+  padding: 10px;
+}
+
+.projects {
+  background-color: #E57B5E;
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 50px;
+
+  /* display: flex; */
+  /* justify-content: space-between;   */
+}
+
+.proj {
+  /* background-color: red; */
+  font-family: monospace;
+  font-size: 1.4rem;
+  padding: 5px;
+  color: black;
+}
+
+
+
+.keyboard-fig {
+  position: relative;
+  top: 0;
+  /* opacity: 0.3; */
+}
+
+.top-container-p {
+  font-size: 1.25rem;
+  /* color: white; */
+  color: #f8f1f1;
+}
+
+.about-me-p {
+  padding-left: 20%;
+  padding-right: 20%;
+  line-height: 1.8;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+.my-skills-p {
+  padding-left: 10%;
+  padding-right: 10%;
+}
